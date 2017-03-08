@@ -1,0 +1,79 @@
+body, video {
+  margin: 0; }
+
+video {
+  position: absolute;
+  z-index: -10;
+  min-width: 100%;
+  min-height: 100%;
+  bottom: 0; }
+
+header {
+  height: 500px;
+  position: relative;
+  overflow: hidden; }
+
+h1 {
+  color: #305291;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5em; }
+
+.title {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  margin-top: 95px; }
+  .title h2 {
+    font-size: 1.25em;
+    color: white;
+    font-weight: 400;
+    margin: 35px; }
+
+.head {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 4px; }
+  .head img {
+    float: left;
+    width: 50px;
+    margin-top: 20px; }
+  .head ul {
+    float: right;
+    list-style-type: none; }
+    .head ul li {
+      float: left;
+      padding: 15px;
+      background: white;
+      color: #305291;
+      margin: 10px; }
+
+.clearfix::after {
+  display: block;
+  content: " ";
+  clear: both; }
+
+.pledge {
+  background: #305291;
+  color: white;
+  padding: 75px 0;
+  text-align: center; }
+  .pledge hr {
+    border: none;
+    border-bottom: 1px solid white; }
+  .pledge hr {
+    width: 70%; }
+  .pledge p {
+    margin: 20px auto;
+    width: 70%;
+    line-height: 30px; }
+
+.issues {
+  background: #F2F2F2;
+  padding: 50px;
+  text-align: center; }
+  .issues h2 {
+    color: #305291;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
