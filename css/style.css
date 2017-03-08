@@ -76,4 +76,31 @@ h1 {
     color: #305291;
     text-transform: uppercase; }
 
+.boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.box {
+  width: 200px;
+  height: 300px;
+  margin: 15px;
+  background: white;
+  padding: 20px; }
+  .box .icon-container {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid #305291;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .box .icon-container i {
+      font-size: 2em; }
+  .box p {
+    line-height: 30px; }
+
 /*# sourceMappingURL=style.css.map */
